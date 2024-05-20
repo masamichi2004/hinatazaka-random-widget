@@ -1,4 +1,4 @@
-# Hinatazaka46 Oshi-images OndDrive Widget for MacOS
+# Hinatazaka46 Oshi-images OneDrive Widget for MacOS
 ## Overview
 - Shoma's Spring Project
 - An application that scrapes official blogs and outputs random images from onedrive widget
