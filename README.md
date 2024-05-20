@@ -32,3 +32,8 @@ docker compose build
 ```
 docker compose up
 ```
+
+After stop the application, shut down docker compose
+```
+docker compose down
+```
