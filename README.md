@@ -5,3 +5,30 @@
 
 ## Hinatazaka46 Official Blog
 [![Image from Gyazo](https://i.gyazo.com/27a4bdad6c8b3c6d666c0af257cb1fbe.jpg)](https://gyazo.com/27a4bdad6c8b3c6d666c0af257cb1fbe)
+
+## Quick Start
+1. clone this repo to your local one
+```
+git clone https://github.com/MasamichiKanakubo/spr-hinata-scraping.git
+```
+
+2. build and activate the virtual environment
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. install the package
+```
+pip install -r requirements.txt
+```
+
+4. build docker compose
+```docker
+docker compose build
+```
+
+5. run docker compose
+```
+docker compose up
+```
