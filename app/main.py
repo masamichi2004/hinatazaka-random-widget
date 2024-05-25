@@ -7,7 +7,7 @@ app = FastAPI()
 @app.get("/")
 async def hello():
     # ブラケット
-    return {"hello":"hello world"}
+    return {"hello":"こんにちは世界"}
 
 
 app.add_middleware(
