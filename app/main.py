@@ -1,7 +1,7 @@
 import shutil
 
-from google_photo.google_photo import GooglePhotoFacade
-from scraping.blog_scraping import HinatazakaBlogScraper
+from app.google_photo.google_photo import GooglePhotoFacade
+from app.scraping.blog_scraping import HinatazakaBlogScraper
 
 OFFISIAL_BLOG_URL = 'https://www.hinatazaka46.com/s/official/diary/member'
 HOME_URL = "https://www.hinatazaka46.com"
