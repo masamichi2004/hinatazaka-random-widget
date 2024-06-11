@@ -12,7 +12,7 @@ soup = BeautifulSoup(web_content, 'html.parser')
 blog_name_div = soup.find('div', class_ = 'c-blog-main__name')
 blog_name = blog_name_div.get_text(strip=True) if blog_name_div else None
 def check(blog_name):
-    if blog_name != "富田 鈴花":
+    if blog_name != "山口 陽世":
         print(blog_name)
         blog_url = soup.find('a', class_ = "p-blog-main__image")
         href = blog_url.get("href")
@@ -50,7 +50,6 @@ def check(blog_name):
             image_count += 1
 
 check(blog_name)
-
 
 # image_elements = soup.find_all('img') #このリストの中には'img'の要素が入っており，.jpg以外の拡張子の画像も含まれる
 # directory_name = 'haruyo_yamaguchi'# ディレクトリの名前を決める
